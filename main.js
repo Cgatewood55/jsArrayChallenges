@@ -1,5 +1,6 @@
 console.log("hi");
-
+ 
+//challenge 1 named as challenge 5 branch 
 
 var challengeOneInput = "jumbo shrimp";
 var singleWord= challengeOneInput.split(' ');
@@ -33,3 +34,29 @@ if (shrimpScore > jumboScore){
 }
 
 //console.log(shrimpScore);
+
+//challenge4
+var challengeFourInputA = [ 1, 2, 3 ];  // [2, 4, 6]
+var challengeFourInputB = [ 3, 8, 1, 2, 4, 12 ];  // [ 6, 16, 2, 4, 8, 24 ]
+
+function doubleNum(dubnum) {
+    var doubled = [];
+for (var k=0; k<dubnum.length;k++){
+    doubled.push(dubnum[k] *2);
+    }
+    return doubled;
+}
+var challenge4 = doubleNum(challengeFourInputA);
+ document.getElementById("challenge-4").innerHTML = "<h3>" + "challenge 4:" + challenge4 + "</h3>";
+
+ function doubleNum(dubnum) {
+    var doubled = [];
+for (var k=0; k<dubnum.length;k++){
+    doubled.push(dubnum[k] *2);
+    }
+    return doubled;
+}
+
+ var challenge4 = doubleNum(challengeFourInputB);
+ document.getElementById("challenge-4").innerHTML =  "<h3>" + "challenge 4: " + challenge4 + "</h3>"
+
