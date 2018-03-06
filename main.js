@@ -60,3 +60,22 @@ for (var k=0; k<dubnum.length;k++){
  var challenge4 = doubleNum(challengeFourInputB);
  document.getElementById("challenge-4").innerHTML =  "<h3>" + "challenge 4: " + challenge4 + "</h3>"
 
+
+ //challenge 5 on chall5 branch
+
+ var array1 = [1,2, 4, 7, 5, 9];
+var array2 = [5, 9, 2];
+var diffNums = [];
+//display = [1, 4, 7]
+for (var i=0; i<array1.length;i++){
+    array1.filter(array1[i])
+};
+for (var i=0; i<array2.length;i++){
+    array2.filter(array2[i])
+};
+return 
+
+
+
+
+ 
